@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap");
+/* BOX SHADOW */
+/* BOX SHADOW (END) */
+/* FONT COLORS */
+/* FONT COLORS (END) */
+/* FONT FAMILIES */
+/* FONT FAMILIES (END) */
+.hero-component-container {
+  background-color: #070016;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-component-text {
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 3.5rem;
+}
+
+.hero-component-text::after {
+  content: "";
+  width: 10px;
+  height: 25px;
+  background-color: #3892ff;
+  display: inline-block;
+  box-shadow: 0 4px 8px 4px rgba(0, 46, 230, 0.421);
+  animation: cursor-blink 1.5s steps(2) infinite;
+}
+
+@keyframes cursor-blink {
+  0% {
+    opacity: 0;
+  }
+}
+
+.avatar-img {
+  width: 500px;
+  height: 500px;
+  margin: 10px;
+  margin-top: 3.5rem;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 4px rgba(0, 46, 230, 0.421);
+  transition: all .3s;
+  animation-name: floating;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, 0px);
+  }
+}
+
+.avatar-img:hover {
+  box-shadow: 0 4px 8px 4px rgba(0, 46, 230, 0.701);
+}
+/*# sourceMappingURL=Hero.css.map */

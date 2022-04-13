@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap");
+/* BOX SHADOW */
+/* BOX SHADOW (END) */
+/* FONT COLORS */
+/* FONT COLORS (END) */
+/* FONT FAMILIES */
+/* FONT FAMILIES (END) */
+* {
+  box-sizing: border-box;
+  font-family: "JetBrains Mono", monospace;
+}
+
+.full-app-container {
+  display: grid;
+  grid-template-rows: 30% auto auto;
+}
+/*# sourceMappingURL=App.css.map */

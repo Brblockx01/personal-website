@@ -1,0 +1,34 @@
+@import '../../../Scss/root/index';
+
+.projects-component-container
+{
+    background-color: $backgroundColor-1;
+    
+    .projects-component-sub-title
+    {
+        margin-left: 18px;
+        color: $white;
+        font-size: 2rem;
+        text-transform: capitalize;
+    }
+}
+
+.projects-title-container
+{
+    display: flex;
+    justify-content: center;
+    
+    .projects-component-title
+    {
+        font-size: 4rem;
+        text-transform: uppercase;
+        color: $white;
+        text-align: center;
+    }
+
+    .projects-icon
+    {
+        color: $white;
+        font-size: 3.5rem;
+    }
+}

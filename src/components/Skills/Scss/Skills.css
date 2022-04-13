@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap");
+/* BOX SHADOW */
+/* BOX SHADOW (END) */
+/* FONT COLORS */
+/* FONT COLORS (END) */
+/* FONT FAMILIES */
+/* FONT FAMILIES (END) */
+.skills-component-container {
+  background-color: #070016;
+}
+
+.skills-component-container .skill-section-text {
+  margin-left: 18px;
+  color: #ffffff;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.skills-component-container .skill-section-text::after {
+  content: "";
+  width: 10px;
+  height: 25px;
+  background-color: #3892ff;
+  display: inline-block;
+  box-shadow: 0 4px 8px 4px rgba(0, 46, 230, 0.421);
+  animation: cursor-blink 1.5s steps(2) infinite;
+}
+
+@keyframes cursor-blink {
+  0% {
+    opacity: 0;
+  }
+}
+
+.skills-title-container {
+  display: flex;
+  justify-content: center;
+}
+
+.skills-title-container .skills-component-title {
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.skills-title-container .tools-icon {
+  color: #ffffff;
+  font-size: 3rem;
+}
+
+.skills-boxes-container {
+  margin-bottom: 8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.skill-container {
+  cursor: pointer;
+  background-color: #f2f2f2;
+  margin: 10px;
+  padding: 30px;
+  border-radius: 5px;
+  display: inline-block;
+  box-shadow: 0 4px 8px 4px rgba(0, 46, 230, 0.421);
+  transition: all .3s;
+}
+
+.skill-container .skill-img {
+  width: 200px;
+}
+
+.skill-container .skill-name {
+  text-align: center;
+  color: #000000;
+}
+
+.skill-container:hover {
+  box-shadow: 0 4px 8px 4px rgba(0, 46, 230, 0.701);
+  background-color: #ffffff;
+}
+/*# sourceMappingURL=Skills.css.map */
