@@ -150,5 +150,14 @@
   .skills-component-container .skill-section-text {
     font-size: 1.2rem;
   }
+  .skills-component-container .skill-section-text::after {
+    content: "";
+    width: 5px;
+    height: 15px;
+    background-color: #3892ff;
+    display: inline-block;
+    box-shadow: 0 4px 8px 4px rgba(0, 46, 230, 0.421);
+    animation: cursor-blink 1.5s steps(2) infinite;
+  }
 }
 /*# sourceMappingURL=Skills.css.map */

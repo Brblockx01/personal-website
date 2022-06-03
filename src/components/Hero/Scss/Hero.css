@@ -78,11 +78,7 @@
 @media screen and (max-width: 800px) {
   .hero-component-text {
     margin: 35px;
-    font-size: 1.4rem;
-  }
-  .avatar-img {
-    width: 400px;
-    height: 400px;
+    font-size: 2rem;
   }
 }
 
