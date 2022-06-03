@@ -51,3 +51,47 @@
         }
     }
 }
+
+@media screen and (max-width: 1044px)
+{
+}
+
+@media screen and (max-width: 800px)
+{
+}
+
+@media screen and (max-width: 420px)
+{
+    .social-title-container
+    {
+            .social-component-title
+        {
+            font-size: 2rem;
+        }
+
+        .social-title-icon
+        {
+            font-size: 2rem;
+        }
+    }
+
+        .social-component-container
+    {    
+        .email-text
+        {
+            font-size: 1rem;
+        }
+    }
+
+    .social-icons-container
+    {
+        text-align: center;
+
+
+        .social-icon
+        {
+            font-size: 2.2rem;
+        }
+}
+
+}

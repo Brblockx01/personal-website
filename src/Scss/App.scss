@@ -2,6 +2,7 @@
 
 *
 {
+    background-color: $backgroundColor-1;
     box-sizing: border-box;
     // margin: 0;
     // padding: 0;
@@ -10,7 +11,27 @@
 
 .full-app-container
 {
-    // background-color: rgb(173, 173, 235);
+    background-color: $backgroundColor-1;
     display: grid;
     grid-template-rows: 30% auto auto;
+}
+
+@media screen and (max-width: 1044px)
+{
+    .full-app-container
+    {
+        grid-template-rows: 34% auto auto;
+    }
+}
+
+@media screen and (max-width: 800px)
+{
+    .full-app-container
+    {
+        grid-template-rows: 35% auto auto;
+    }
+}
+
+@media screen and (max-width: 420px)
+{
 }

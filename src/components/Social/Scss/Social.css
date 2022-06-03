@@ -46,4 +46,22 @@
 .social-icons-container .social-icon:hover {
   color: #ffffff;
 }
+
+@media screen and (max-width: 420px) {
+  .social-title-container .social-component-title {
+    font-size: 2rem;
+  }
+  .social-title-container .social-title-icon {
+    font-size: 2rem;
+  }
+  .social-component-container .email-text {
+    font-size: 1rem;
+  }
+  .social-icons-container {
+    text-align: center;
+  }
+  .social-icons-container .social-icon {
+    font-size: 2.2rem;
+  }
+}
 /*# sourceMappingURL=Social.css.map */

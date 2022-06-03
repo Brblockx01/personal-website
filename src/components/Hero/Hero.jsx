@@ -8,7 +8,7 @@ const Hero = () => {
       <img className='avatar-img' src={avatar} alt="" />
       <span>
       <h1 className='hero-component-text'>Hi, thank you for checking out my website! <br />
-      My name is Bryan Martinez and I develop front-end apps <br />
+      My name is Bryan Martinez. I develop front-end apps <br />
       and blockchain apps with Solidity <br />
       on the Ethereum blockchain.</h1>
       </span>

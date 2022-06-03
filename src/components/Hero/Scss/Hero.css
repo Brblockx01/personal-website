@@ -64,4 +64,36 @@
 .avatar-img:hover {
   box-shadow: 0 4px 8px 4px rgba(0, 46, 230, 0.701);
 }
+
+@media screen and (max-width: 1044px) {
+  .hero-component-text {
+    font-size: 1.8rem;
+  }
+  .avatar-img {
+    width: 450px;
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hero-component-text {
+    margin: 35px;
+    font-size: 1.4rem;
+  }
+  .avatar-img {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .hero-component-text {
+    margin: 35px;
+    font-size: 1.2rem;
+  }
+  .avatar-img {
+    width: 300px;
+    height: 300px;
+  }
+}
 /*# sourceMappingURL=Hero.css.map */
