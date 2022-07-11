@@ -59,11 +59,6 @@
         50% { transform: translate(0, 15px); }
         100% { transform: translate(0, -0px); }
     }
-
-    &:hover
-    {
-        box-shadow: $blue-box-shadow-medium;
-    }
 }
 
 @media screen and (max-width: 1044px)

@@ -25,7 +25,7 @@
   height: 25px;
   background-color: #3892ff;
   display: inline-block;
-  box-shadow: 0 4px 8px 4px rgba(0, 46, 230, 0.421);
+  box-shadow: 0 0 8px 4px rgba(0, 46, 230, 0.421);
   animation: cursor-blink 1.5s steps(2) infinite;
 }
 
@@ -41,7 +41,7 @@
   margin: 10px;
   margin-top: 3.5rem;
   border-radius: 50%;
-  box-shadow: 0 4px 8px 4px rgba(0, 46, 230, 0.421);
+  box-shadow: 0 0 8px 4px rgba(0, 46, 230, 0.421);
   transition: all .3s;
   animation-name: floating;
   animation-duration: 8s;
@@ -59,10 +59,6 @@
   100% {
     transform: translate(0, 0px);
   }
-}
-
-.avatar-img:hover {
-  box-shadow: 0 4px 8px 4px rgba(0, 46, 230, 0.701);
 }
 
 @media screen and (max-width: 1044px) {

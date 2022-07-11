@@ -14,7 +14,7 @@
 .full-app-container {
   background-color: #070016;
   display: grid;
-  grid-template-rows: 30% auto auto;
+  grid-template-rows: 30% auto auto auto;
 }
 
 @media screen and (max-width: 1044px) {

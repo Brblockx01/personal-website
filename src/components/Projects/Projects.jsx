@@ -1,17 +1,42 @@
 import React from 'react';
 import './Scss/Projects.css';
 import { IoExtensionPuzzleSharp } from 'react-icons/io5';
+import Project from './Project/Project';
+import { pcoin, eventstickets } from '../../assets/projectImgs';
 
 const Projects = () => {
   return (
     <div className='projects-component-container'>
       <div className='projects-title-container'>
-        {/* <h1 className='projects-component-title'>Projects</h1>
-        <i><IoExtensionPuzzleSharp className='projects-icon' /></i> */}
+        <h1 className='projects-component-title'>Projects</h1>
+        <i><IoExtensionPuzzleSharp className='projects-icon' /></i>
       </div>
-        {/* <h3 className='projects-component-sub-title'>Check out the projects I've made.</h3> */}
+        <Project 
+        projectLink={"https://luminous-kelpie-766d39.netlify.app/"} 
+        projectName="PCoin" 
+        projectImage={pcoin} 
+        projectDescription={
+        <p>
+          An ERC20 token with an interface<br />
+          to use in other projects.
+        </p>
+        }
+        />
+        <Project 
+        projectLink={"https://monumental-manatee-77f45a.netlify.app/"} 
+        projectName="Events-Tickets" 
+        projectImage={eventstickets} 
+        projectDescription={
+        <p>
+          A smart contract to mint<br />
+          tickets for an event.
+        </p>
+        }
+        />
     </div>
   )
 }
 
-export default Projects
+export default Projects;
+
+// https://luminous-kelpie-766d39.netlify.app/

@@ -6,7 +6,7 @@ function App() {
     <div className="full-app-container">
       <Hero />
       <Skills />
-      {/* <Projects /> */}
+      <Projects />
       <Social />
     </div>
   );
