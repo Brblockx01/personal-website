@@ -8,7 +8,6 @@
 .social-component-container {
   background-color: #070016;
 }
-
 .social-component-container .email-text {
   text-align: center;
   color: #ffffff;
@@ -19,13 +18,11 @@
   display: flex;
   justify-content: center;
 }
-
 .social-title-container .social-component-title {
   font-size: 3.2rem;
   color: #ffffff;
   text-align: center;
 }
-
 .social-title-container .social-title-icon {
   color: #ffffff;
   font-size: 3.5rem;
@@ -34,28 +31,37 @@
 .social-icons-container {
   text-align: center;
 }
-
 .social-icons-container .social-icon {
   margin: 10px;
   cursor: pointer;
-  color: #c4c4c4;
+  color: rgb(196, 196, 196);
   font-size: 3.5rem;
-  transition: all .3s;
+  transition: all 0.3s;
 }
-
 .social-icons-container .social-icon:hover {
   color: #ffffff;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 800px) {
   .social-title-container .social-component-title {
     font-size: 2rem;
   }
   .social-title-container .social-title-icon {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .social-component-container .email-text {
-    font-size: 1rem;
+    font-size: 0.6rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  .social-title-container .social-component-title {
+    font-size: 1.5rem;
+  }
+  .social-title-container .social-title-icon {
+    font-size: 1.3rem;
+  }
+  .social-component-container .email-text {
+    font-size: 0.6rem;
   }
   .social-icons-container {
     text-align: center;
@@ -63,5 +69,4 @@
   .social-icons-container .social-icon {
     font-size: 2.2rem;
   }
-}
-/*# sourceMappingURL=Social.css.map */
+}/*# sourceMappingURL=Social.css.map */

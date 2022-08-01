@@ -13,16 +13,3 @@ const Project = ({ projectLink, projectName, projectImage, projectDescription })
 }
 
 export default Project;
-
-
-
-// const Skill = ({ skillName, skillImage, skillTitle }) => {
-//     return (
-//       <div className='skill-container' title={skillTitle}>
-//           <img className='skill-img' src={skillImage} alt="" />
-//           <h1 className='skill-name'>{skillName}</h1>
-//       </div>
-//     )
-//   }
-
-{/* <a href="https://www.w3schools.com" target="_blank">Visit W3Schools.com!</a> */}

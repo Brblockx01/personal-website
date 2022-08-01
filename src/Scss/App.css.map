@@ -1,10 +1,1 @@
-{
-    "version": 3,
-    "mappings": "ACCA,OAAO,CAAC,2IAAI;AAGZ,gBAAgB;AAKhB,sBAAsB;AAEtB,iBAAiB;AAGjB,uBAAuB;AAEvB,mBAAmB;AAEnB,yBAAyB;ADhBzB,AAAA,CAAC,CACD;EACI,gBAAgB,ECmBA,OAAO;EDlBvB,UAAU,EAAE,UAAU;EAGtB,WAAW,ECSC,gBAAgB,EAAE,SAAS;CDR1C;;AAED,AAAA,mBAAmB,CACnB;EACI,gBAAgB,ECUA,OAAO;EDTvB,OAAO,EAAE,IAAI;EACb,kBAAkB,EAAE,kBAAkB;CACzC;;AAED,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,MAAM;EAEhC,AAAA,mBAAmB,CACnB;IACI,kBAAkB,EAAE,aAAa;GACpC;;;AAGL,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAE/B,AAAA,mBAAmB,CACnB;IACI,kBAAkB,EAAE,aAAa;GACpC",
-    "sources": [
-        "App.scss",
-        "root/_index.scss"
-    ],
-    "names": [],
-    "file": "App.css"
-}
+{"version":3,"sourceRoot":"","sources":["root/_index.scss","App.scss"],"names":[],"mappings":"AACQ;AAGR;AAKA;AAEA;AAGA;AAEA;AAEA;AChBA;EAEI,kBDmBgB;EClBhB;EACA,aDWY;;;ACRhB;EAEI,kBDYgB;ECXhB;EACA;;;AAGJ;EAEI;IAEI;;;AAIR;EAEI;IAEI;;;AAIR;EAEI;IAEI","file":"App.css"}

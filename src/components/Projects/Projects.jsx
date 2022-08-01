@@ -11,6 +11,7 @@ const Projects = () => {
         <h1 className='projects-component-title'>Projects</h1>
         <i><IoExtensionPuzzleSharp className='projects-icon' /></i>
       </div>
+      <div className="all-projects-container">
         <Project 
         projectLink={"https://luminous-kelpie-766d39.netlify.app/"} 
         projectName="PCoin" 
@@ -24,8 +25,8 @@ const Projects = () => {
         />
         <Project 
         projectLink={"https://monumental-manatee-77f45a.netlify.app/"} 
-        projectName="Events-Tickets" 
         projectImage={eventstickets} 
+        projectName="Events-Tickets" 
         projectDescription={
         <p>
           A smart contract to mint<br />
@@ -33,10 +34,9 @@ const Projects = () => {
         </p>
         }
         />
+      </div>
     </div>
   )
 }
 
 export default Projects;
-
-// https://luminous-kelpie-766d39.netlify.app/

@@ -4,8 +4,6 @@
 {
     background-color: $backgroundColor-1;
     box-sizing: border-box;
-    // margin: 0;
-    // padding: 0;
     font-family: $jetBrainsMono;
 }
 
@@ -20,7 +18,7 @@
 {
     .full-app-container
     {
-        grid-template-rows: 34% auto auto;
+        grid-template-rows: 34% auto auto auto;
     }
 }
 
@@ -28,10 +26,14 @@
 {
     .full-app-container
     {
-        grid-template-rows: 35% auto auto;
+        grid-template-rows: 35% auto auto auto;
     }
 }
 
 @media screen and (max-width: 420px)
 {
+    .full-app-container
+    {
+        grid-template-rows: 25% auto auto auto;
+    }
 }

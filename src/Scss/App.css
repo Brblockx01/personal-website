@@ -19,13 +19,16 @@
 
 @media screen and (max-width: 1044px) {
   .full-app-container {
-    grid-template-rows: 34% auto auto;
+    grid-template-rows: 34% auto auto auto;
   }
 }
-
 @media screen and (max-width: 800px) {
   .full-app-container {
-    grid-template-rows: 35% auto auto;
+    grid-template-rows: 35% auto auto auto;
   }
 }
-/*# sourceMappingURL=App.css.map */
+@media screen and (max-width: 420px) {
+  .full-app-container {
+    grid-template-rows: 25% auto auto auto;
+  }
+}/*# sourceMappingURL=App.css.map */

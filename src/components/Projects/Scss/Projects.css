@@ -13,7 +13,6 @@
   display: flex;
   justify-content: center;
 }
-
 .projects-title-container .projects-component-title {
   font-size: 4rem;
   text-transform: uppercase;
@@ -21,7 +20,6 @@
   text-align: center;
   text-shadow: 0px 0px 10px rgba(196, 196, 196, 0.4);
 }
-
 .projects-title-container .projects-icon {
   color: #ffffff;
   font-size: 3.5rem;
@@ -30,31 +28,27 @@
 .project-container {
   display: inline-block;
   border-radius: 5px;
-  background-color: #070724;
+  background-color: rgb(7, 7, 36);
   margin: 20px;
   padding: 20px;
   box-shadow: 0 0 8px 4px rgba(255, 255, 255, 0.15);
-  transition: all .3s;
+  transition: all 0.3s;
 }
-
 .project-container:hover {
   box-shadow: 0 0 8px 4px rgba(255, 255, 255, 0.2);
 }
-
 .project-container h1 {
   background-color: transparent;
   font-size: 1.8rem;
   text-align: center;
   color: #ffffff;
 }
-
 .project-container .project-description {
   background-color: transparent;
   text-align: center;
   color: #ffffff;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
-
 .project-container .project-description p {
   background-color: transparent;
 }
@@ -64,4 +58,47 @@
   width: 280px;
   height: 280px;
 }
-/*# sourceMappingURL=Projects.css.map */
+
+@media screen and (max-width: 1044px) {
+  .project-container h1 {
+    font-size: 1.2rem;
+  }
+  .project-container .project-description {
+    font-size: 0.6rem;
+  }
+  .project-image {
+    width: 180px;
+    height: 180px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .projects-title-container .projects-component-title {
+    font-size: 2.5rem;
+  }
+  .projects-title-container .projects-icon {
+    font-size: 2.3rem;
+  }
+  .project-container h1 {
+    font-size: 1.1rem;
+  }
+  .project-container .project-description {
+    font-size: 0.4rem;
+  }
+  .project-image {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .projects-title-container .projects-component-title {
+    font-size: 2rem;
+  }
+  .projects-title-container .projects-icon {
+    font-size: 2.5rem;
+  }
+  .all-projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}/*# sourceMappingURL=Projects.css.map */
